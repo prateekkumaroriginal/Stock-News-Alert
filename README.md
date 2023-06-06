@@ -1,6 +1,9 @@
 # Stock-News-Alert
 This Python program retrieves daily stock price data from Alpha Vantage and sends news alerts via SMS using Twilio. It checks the percentage change in the stock price and sends news articles if the change exceeds 5%.
 
+## Note
+To use it effectively, you should deploy it on a cloud service like Google's <a href="https://cloud.google.com/run/?userloc_9303169-network_g">Cloud Run</a>.
+
 ## Setup
 Clone the repository or download the Python file.<br>
 Install the required libraries.<br>
